@@ -1,6 +1,6 @@
 resource "aws_security_group" "expense" {
   name        = var.sg_name
-  description = var.description
+  description = var.descriptions
   vpc_id      = var.vpc_id
 
  egress {
