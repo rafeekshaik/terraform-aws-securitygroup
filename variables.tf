@@ -11,7 +11,7 @@ variable "sg_name" {
   
 }
 
-variable "descriptions" {
+variable "description" {
   
 }
 variable "sg_tags" {
